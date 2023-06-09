@@ -93,6 +93,8 @@ h3 {
 
 i:hover {
   transform: scale(1.1, 1.1);
+  color: var(--mainColor);
+  cursor: pointer;
 }
 
 .form-item {

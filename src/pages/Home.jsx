@@ -5,10 +5,12 @@ import Footer from '../components/Footer/Footer'
 import { Link } from 'react-router-dom'
 import Contact from '../components/Contact/Contact'
 import ContactForm from '../components/ContactForm/ContactForm'
+import GoToTop from '../GoToTop'
 
 const Home = () => {
   return (
     <React.Fragment>
+      <GoToTop />
       <Navbar />
       <div className="home-container">
         <video
@@ -23,11 +25,10 @@ const Home = () => {
         <div className="home-wrapper">
           <div className="image-text-container">
             <div className="image-text">
-              <h1>
+              <h1 style={{ marginBottom: '50px' }}>
                 RB GUITARS{' '}
                 <span style={{ fontWeight: '200' }}>CUSTOM SHOP</span>
               </h1>
-              <h4>Your ultimate guitar experience</h4>
               <p>
                 Welcome to our custom shop guitar store, a haven for discerning
                 musicians and enthusiasts seeking the ultimate expression of
@@ -35,6 +36,14 @@ const Home = () => {
                 artistry, and personalization converge to create instruments as
                 unique as the players who wield them.
               </p>
+              <br />
+              <a
+                href="https://github.com/riccardoboe"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Visit our store!
+              </a>
             </div>
           </div>
         </div>
@@ -95,9 +104,6 @@ const Home = () => {
       <hr />
 
       <div className="about-container">
-        <h1 style={{ textAlign: 'center', marginBottom: '50px' }}>
-          <span style={{ fontWeight: '200' }}>OUR</span> STORY
-        </h1>
         <div className="about-wrapper">
           <div className="about-left">
             <h1>

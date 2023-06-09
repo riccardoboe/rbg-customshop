@@ -53,7 +53,7 @@ const Artist = () => {
         />
         <h1 className="artist-title-text">artists</h1>
         <h3>
-          <span style={{ fontWeight: '200' }}>Signature</span> series
+          <span style={{ fontWeight: '300' }}>Signature series</span>
         </h3>
         <p>
           The Artist Signature Series gives you the best results of the working

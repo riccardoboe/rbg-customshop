@@ -3,10 +3,12 @@ import Navbar from '../components/Navbar/Navbar'
 import Footer from '../components/Footer/Footer'
 import ContactForm from '../components/ContactForm/ContactForm'
 import Contact from '../components/Contact/Contact'
+import GoToTop from '../GoToTop'
 
 const ContactUs = () => {
   return (
     <React.Fragment>
+      <GoToTop />
       <Navbar />
       <div className="home-container">
         <img src="../../backgroundcontact.jpg" alt="background" />

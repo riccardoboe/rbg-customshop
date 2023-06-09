@@ -16,6 +16,10 @@
   font-weight: 200;
 }
 
+.footer-left h1 {
+  margin-bottom: 50px;
+}
+
 .footer-left h3 {
   color: var(--mainColor);
 

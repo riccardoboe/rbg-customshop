@@ -16,9 +16,18 @@ function Footer() {
         </div>
         <div className="footer-right">
           <a href="">Back to Top</a>
+
           <a href="/">Home page</a>
           <a href="/about-us">About page</a>
           <a href="/contact-us">Contact page</a>
+          <a
+            href="https://github.com/riccardoboe"
+            target="_blank"
+            rel="noreferrer"
+            style={{ textTransform: 'uppercase' }}
+          >
+            Official Store
+          </a>
         </div>
         <hr className="footer-hr" />
         <div className="bottom">
