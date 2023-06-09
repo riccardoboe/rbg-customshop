@@ -7,18 +7,21 @@
   position: relative;
 }
 
-.home-container img {
-  height: 90vh;
-  width: 100%;
-  object-fit: cover;
-  filter: brightness(50%);
-}
-
 #videoBG {
   height: 90vh;
   width: 100%;
   object-fit: cover;
   filter: brightness(50%);
+}
+@media screen and (max-width: 760px) {
+  #videoBG {
+    display: none;
+  }
+  .home-container {
+    background: url('https://i.ibb.co/cCTt24H/angad-singh-9-POz8-PXGWj-M-unsplash.jpg');
+    height: 90vh;
+    width: 100%;
+  }
 }
 
 .image-text-container {
@@ -107,7 +110,7 @@
 
 .services-container img {
   margin: 10px 25px;
-  width: 500px;
+  width: 450px;
   height: 100%;
   border-radius: 4px;
   object-fit: cover;
